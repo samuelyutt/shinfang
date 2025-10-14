@@ -1,0 +1,13 @@
+# coco_dataset/data.yaml
+
+# Train/val images and labels (we will create the labels folder in the next step)
+# path: /content/coco_dataset  # Absolute path to your dataset folder
+train: images/train
+val: images/val
+
+# Classes
+names:
+  0: pot
+  1: bowl
+  2: spatula
+  3: egg
